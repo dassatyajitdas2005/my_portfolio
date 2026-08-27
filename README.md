@@ -86,7 +86,7 @@ Through this project, I learned:
 
 **Satyajit Das**
 
-Diploma in Pharmacy Student
+Pharmacy Student
 
 Passionate about Web Development, Healthcare, AI, and Technology.
 
