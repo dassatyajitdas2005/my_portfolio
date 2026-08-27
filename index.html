@@ -3,477 +3,901 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Satyajit Das – Pharma Student, Future Pharma IT Entrepreneur, Tech Learner, Business Strategist. Based in Kharagpur, West Bengal, India." />
-  <title>Satyajit Das | Pharma Student & Future Founder</title>
+  <meta name="description" content="Satyajit Das — Pharmacy Student, BBA Scholar, Creative Strategist, and Aspiring Health-Tech & Pharma IT Entrepreneur based in Greater Kolkata Area, West Bengal, India." />
+  <meta name="keywords" content="Satyajit Das, Pharmacy, BBA, Health-Tech, Pharma IT, Pharmacovigilance, Web Development, Video Editing, SEO Copywriting, MediTrack" />
+  <meta name="author" content="Satyajit Das" />
+  <title>Satyajit Das | Pharmacy · Business · Technology · Creative Strategy</title>
+  
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <!--  NAVBAR  -->
-  <nav id="navbar">
-    <div class="nav-inner">
-      <a href="#hero" class="nav-logo">SD<span class="dot">.PORTFOLIO</span></a>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#pharma">Pharma</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#mission">Mission</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-      <button class="hamburger" id="hamburger" aria-label="Menu">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-  </nav>
+  <!-- ================= NAVBAR ================= -->
+  <header>
+    <nav id="navbar" aria-label="Main Navigation">
+      <div class="nav-inner">
+        <a href="#hero" class="nav-logo" aria-label="Satyajit Das Home">
+          SD<span class="dot">.PORTFOLIO</span>
+        </a>
+        
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#pharma">Focus Pillars</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#mission">Vision</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
 
-  <!--  HERO  -->
-  <section id="hero">
-    <div class="hero-glow"></div>
-    <div class="hero-grid"></div>
-    <div class="hero-content">
-      <div class="hero-text">
-        <p class="hero-tag reveal">👋 Hello, I'm</p>
-        <h1 class="hero-name reveal">Satyajit Das</h1>
-        <h2 class="hero-role reveal">A Pharma Student Building <span class="accent">Future Tech Solutions</span></h2>
-        <p class="hero-sub reveal">Pharma Student at Haldia Institute of Pharmacy | Interested in <span class="accent">Pharmacovigilance</span>, Pharma IT, Business, Coding &amp; Innovation</p>
-        <div class="typing-wrap reveal">
-          <span class="typed-prefix">I am a </span>
-          <span class="typed-text" id="typed"></span><span class="cursor">|</span>
-        </div>
-        <div class="hero-btns reveal">
-          <a href="#contact" class="btn-primary">Contact Me</a>
-          <a href="https://www.linkedin.com/in/satyajit-das-7822ab300" target="_blank" class="btn-outline">LinkedIn ↗</a>
+        <div class="nav-actions">
+          <a href="#contact" class="nav-cta-btn">Get In Touch</a>
+          <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
         </div>
       </div>
-      <div class="hero-img-wrap reveal">
-        <div class="hero-avatar">
-          <div class="avatar-ring"></div>
-          <div class="avatar-inner">
-            <span class="avatar-initials">SD</span>
-          </div>
-          <div class="avatar-badge">Pharma<br/>Student</div>
-        </div>
-      </div>
-    </div>
-    <div class="scroll-hint">
-      <span>Scroll</span>
-      <div class="scroll-line"></div>
-    </div>
-  </section>
+    </nav>
+  </header>
 
-  <!--  ABOUT  -->
-  <section id="about">
-    <div class="container">
-      <div class="section-label reveal"> — About Me</div>
-      <h2 class="section-title reveal">Who I Am</h2>
-      <div class="about-grid">
-        <div class="about-text reveal">
-          <p>I am a dedicated <strong>Pharma student</strong> currently studying at <strong>Haldia Institute of Pharmacy</strong>. Alongside my pharmaceutical education, I am building skills in technology, business strategy, and digital innovation to create impactful healthcare solutions.</p>
-          <p>I combine healthcare knowledge with modern digital skills such as <span class="accent">HTML, CSS, JavaScript, Streamlit, SQL, Power BI</span>, content creation, branding, and problem solving.</p>
-          <p>My long-term vision is to build a <strong>Pharma IT company</strong> that solves real healthcare problems, creates jobs, and drives innovation in the pharmaceutical industry.</p>
-          <p>I strongly believe in continuous learning, execution, discipline, and meaningful growth.</p>
+  <main>
+    <!-- ================= HERO ================= -->
+    <section id="hero" class="hero-section">
+      <div class="hero-glow"></div>
+      <div class="hero-grid"></div>
+      <div class="hero-content">
+        <div class="hero-text">
+          <div class="hero-tag-wrap reveal">
+            <span class="hero-badge-pill">👋 Welcome to my portfolio</span>
+            <span class="hero-location-pill">📍 Greater Kolkata Area, India</span>
+          </div>
+          
+          <h1 class="hero-name reveal">Satyajit Das</h1>
+          
+          <h2 class="hero-role reveal">
+            Developing at the Intersection of <br />
+            <span class="accent-gradient">Pharmacy · Business · Technology · Creative Strategy</span>
+          </h2>
+          
+          <p class="hero-sub reveal">
+            Pharmacy student at <strong>Haldia Institute of Pharmacy</strong> &amp; BBA scholar at <strong>Manipal Academy of Higher Education</strong>. Focused on <strong>Health-Tech, Pharmacovigilance</strong>, and digital platforms that solve clinical workflow challenges.
+          </p>
+          
+          <div class="typing-wrap reveal">
+            <span class="typed-prefix">Specializing in: </span>
+            <span class="typed-text" id="typed"></span><span class="cursor" aria-hidden="true">|</span>
+          </div>
+          
+          <div class="hero-btns reveal">
+            <a href="#projects" class="btn-primary">Explore Projects 🚀</a>
+            <a href="#contact" class="btn-secondary">Let's Connect ✉️</a>
+            <a href="https://www.linkedin.com/in/satyajit-das-7822ab300" target="_blank" rel="noopener noreferrer" class="btn-outline">LinkedIn Profile ↗</a>
+          </div>
         </div>
-        <div class="about-cards reveal">
-          <div class="info-card">
-            <div class="info-icon">📍</div>
-            <div>
-              <div class="info-label">Location</div>
-              <div class="info-value">Kharagpur, WB, India</div>
+        
+        <div class="hero-img-wrap reveal">
+          <div class="hero-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-ring-outer"></div>
+            <div class="avatar-inner">
+              <span class="avatar-initials">SD</span>
             </div>
-          </div>
-          <div class="info-card">
-            <div class="info-icon">🎓</div>
-            <div>
-              <div class="info-label">Education</div>
-              <div class="info-value">Haldia Institute of Pharmacy</div>
-            </div>
-          </div>
-          <div class="info-card">
-            <div class="info-icon">🌐</div>
-            <div>
-              <div class="info-label">Languages</div>
-              <div class="info-value">Bengali · Hindi · English</div>
-            </div>
-          </div>
-          <div class="info-card">
-            <div class="info-icon">🚀</div>
-            <div>
-              <div class="info-label">Goal</div>
-              <div class="info-value">Pharma IT Entrepreneur</div>
+            <div class="avatar-badge">
+              <span class="badge-dot"></span>
+              <span>Health-Tech &amp; Business</span>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+      
+      <a href="#about" class="scroll-hint" aria-label="Scroll to About section">
+        <span>SCROLL DOWN</span>
+        <div class="scroll-line"></div>
+      </a>
+    </section>
 
-  <!--  PHARMA PROFILE  -->
-  <section id="pharma">
-    <div class="container">
-      <div class="section-label reveal"> — Pharma Profile</div>
-      <h2 class="section-title reveal">My Pharma Identity</h2>
-      <div class="pharma-grid">
-        <div class="pharma-card reveal">
-          <div class="pharma-icon">💊</div>
-          <h3>Pharma Student</h3>
-          <p>Actively studying pharmaceutical sciences at Haldia Institute of Pharmacy.</p>
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label reveal">01 · Profile Overview</div>
+          <h2 class="section-title reveal">Bridging Healthcare, Business &amp; Technology</h2>
         </div>
-        <div class="pharma-card reveal">
-          <div class="pharma-icon">❤️‍🩹</div>
-          <h3>Healthcare Passionate</h3>
-          <p>Deeply invested in understanding how medicine impacts human lives.</p>
-        </div>
-        <div class="pharma-card reveal">
-          <div class="pharma-icon">🛡️</div>
-          <h3>Pharmacovigilance Interest</h3>
-          <p>Exploring drug safety monitoring and adverse effect reporting systems.</p>
-        </div>
-        <div class="pharma-card reveal">
-          <div class="pharma-icon">🧬</div>
-          <h3>Patient Safety Focused</h3>
-          <p>Committed to understanding how safe medicines reach patients.</p>
-        </div>
-        <div class="pharma-card reveal">
-          <div class="pharma-icon">🔬</div>
-          <h3>Research Mindset</h3>
-          <p>Curious and analytical approach to pharmaceutical sciences.</p>
-        </div>
-        <div class="pharma-card reveal">
-          <div class="pharma-icon">🏥</div>
-          <h3>Medicine & Healthcare</h3>
-          <p>Continuously learning about drug mechanisms and clinical applications.</p>
-        </div>
-        <div class="pharma-card reveal">
-          <div class="pharma-icon">🌐</div>
-          <h3>Future Pharma Entrepreneur</h3>
-          <p>Visioning a Pharma IT startup that disrupts healthcare delivery.</p>
-        </div>
-        <div class="pharma-card reveal">
-          <div class="pharma-icon">📈</div>
-          <h3>Industry Career Focused</h3>
-          <p>Building skills aligned with real pharma industry needs.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--  EDUCATION  -->
-  <section id="education">
-    <div class="container">
-      <div class="section-label reveal"> — Education</div>
-      <h2 class="section-title reveal">Academic Journey</h2>
-      <div class="timeline">
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <span class="timeline-year">2024 – Present</span>
-            <h3>Haldia Institute of Pharmacy</h3>
-            <p>Bachelor of Pharmacy (B.Pharm)</p>
-            <p class="timeline-desc">Pursuing pharmaceutical sciences with a focus on healthcare, drug safety, and industry applications. Active member of Catalyst Club_HIP.</p>
-          </div>
-        </div>
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <span class="timeline-year">2021 – 2023</span>
-            <h3>Sundarar High School (H.S.)</h3>
-            <p>Higher Secondary Education — Science Stream</p>
-            <p class="timeline-desc">Studied Physics, Chemistry, Biology, and Mathematics. Built strong foundation for pharmaceutical and science education.</p>
-          </div>
-        </div>
-        <div class="timeline-item reveal">
-          <div class="timeline-dot"></div>
-          <div class="timeline-content">
-            <span class="timeline-year">Completed 2021</span>
-            <h3>West Bengal Board of Secondary Education</h3>
-            <p>Matriculation — Secondary Education</p>
-            <p class="timeline-desc">Completed WBBSE secondary education with focus on science and core subjects.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--  EXPERIENCE  -->
-  <section id="experience">
-    <div class="container">
-      <div class="section-label reveal"> — Experience</div>
-      <h2 class="section-title reveal">What I've Done</h2>
-      <div class="exp-grid">
-        <div class="exp-card reveal">
-          <div class="exp-badge">Club</div>
-          <h3>CATALYST CLUB_HIP</h3>
-          <span class="exp-date">Feb 2025 – Present</span>
-          <p>Graphic Designer & Creative Thinker. Organizer and contributor for college events, innovation sessions, and creative campaigns within the pharmacy community.</p>
-          <div class="exp-tags">
-            <span>Graphic Design</span><span>Innovation</span><span>Leadership</span>
-          </div>
-        </div>
-        <div class="exp-card reveal">
-          <div class="exp-badge">YouTube</div>
-          <h3>Mr. Career — YouTube</h3>
-          <span class="exp-date">Nov 2024 – Present</span>
-          <p>Founder &amp; Creator of a career guidance YouTube channel dedicated to helping students explore opportunities, skills, and motivation through real-life stories.</p>
-          <div class="exp-tags">
-            <span>Content Creation</span><span>Strategy</span><span>Founder</span>
-          </div>
-        </div>
-        <div class="exp-card reveal">
-          <div class="exp-badge">Work</div>
-          <h3>Bookmypg — Video Editor</h3>
-          <span class="exp-date">Feb 2025 – Sep 2025</span>
-          <p>Worked as Video Editor & Graphic Designer at Bookmipg. Created engaging promotional content, social media videos, and brand-building visual assets.</p>
-          <div class="exp-tags">
-            <span>Video Editing</span><span>Branding</span><span>Design</span>
-          </div>
-        </div>
-        <div class="exp-card reveal">
-          <div class="exp-badge">Freelance</div>
-          <h3>Freelance Creative Work</h3>
-          <span class="exp-date">Ongoing</span>
-          <p>Poster Design, Digital Support, Video Editing, and visual content creation for various clients and personal projects.</p>
-          <div class="exp-tags">
-            <span>Poster Design</span><span>Editing</span><span>Digital</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--  SKILLS  -->
-  <section id="skills">
-    <div class="container">
-      <div class="section-label reveal"> — Skills</div>
-      <h2 class="section-title reveal">My Capabilities</h2>
-      <div class="skills-tabs">
-        <button class="tab-btn active" data-tab="pharma-skills">💊 Pharma</button>
-        <button class="tab-btn" data-tab="tech-skills">💻 Tech</button>
-        <button class="tab-btn" data-tab="biz-skills">📊 Business</button>
-      </div>
-      <div class="skills-panel active" id="pharma-skills">
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Drug Knowledge Basics</span><span>70%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Healthcare Understanding</span><span>75%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="75"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Pharmacovigilance Interest</span><span>65%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="65"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Patient Safety Awareness</span><span>72%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="72"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Pharma Industry Curiosity</span><span>80%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Research Mindset</span><span>68%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="68"></div></div>
-        </div>
-      </div>
-      <div class="skills-panel" id="tech-skills">
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>HTML & CSS</span><span>80%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>JavaScript</span><span>60%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="60"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Streamlit</span><span>65%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="65"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>SQL</span><span>60%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="60"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Power BI</span><span>55%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="55"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Python Basics</span><span>50%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="50"></div></div>
-        </div>
-      </div>
-      <div class="skills-panel" id="biz-skills">
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Leadership</span><span>78%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="78"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Marketing & Branding</span><span>72%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="72"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Business Strategy</span><span>70%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Communication</span><span>80%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Entrepreneurship</span><span>75%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="75"></div></div>
-        </div>
-        <div class="skill-bar-wrap reveal">
-          <div class="skill-label"><span>Creative Problem Solving</span><span>82%</span></div>
-          <div class="skill-track"><div class="skill-fill" data-width="82"></div></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--  PROJECTS  -->
-  <section id="projects">
-    <div class="container">
-      <div class="section-label reveal"> — Projects</div>
-      <h2 class="section-title reveal">Projects & Ideas</h2>
-      <div class="projects-grid">
-        <div class="project-card reveal">
-          <div class="project-num">01</div>
-          <h3>Student Career Guidance — YouTube</h3>
-          <p>Career awareness channel "Mr. Career" helping students explore career paths, skills, and motivation through real-life content.</p>
-          <a href="https://www.youtube.com/channel/UCpbS8YlVdp8FRYhirKhobkg" target="_blank" class="project-btn">View →</a>
-        </div>
-        <div class="project-card reveal">
-          <div class="project-num">02</div>
-          <h3>Pharma Quiz App</h3>
-          <p>Interactive pharmaceutical learning platform with quizzes covering drug knowledge, pharmacovigilance, and patient safety topics.</p>
-          <span class="project-btn muted">In Progress</span>
-        </div>
-        <div class="project-card reveal">
-          <div class="project-num">03</div>
-          <h3>Streamlit Medicine Finder Tool</h3>
-          <p>A medicine information lookup tool built with Streamlit. Search drug details, interactions, and safety data efficiently.</p>
-          <span class="project-btn muted">In Progress</span>
-        </div>
-        <div class="project-card reveal">
-          <div class="project-num">04</div>
-          <h3>Personal Brand Portfolio</h3>
-          <p>This very website — a modern personal portfolio built to represent the Pharma Student + Tech Learner + Future Founder identity.</p>
-          <span class="project-btn muted">Live</span>
-        </div>
-        <div class="project-card reveal">
-          <div class="project-num">05</div>
-          <h3>Tech Explorer YouTube Channel</h3>
-          <p>A second YouTube channel dedicated to exploring technology, digital tools, and how tech intersects with healthcare.</p>
-          <a href="http://www.youtube.com/@techit_tit" target="_blank" class="project-btn">View →</a>
-        </div>
-        <div class="project-card reveal">
-          <div class="project-num">06</div>
-          <h3>Future Pharma IT Startup Vision</h3>
-          <p>A long-term roadmap to build a Pharma IT company combining healthcare, software, AI, analytics, and business systems.</p>
-          <span class="project-btn muted">Vision</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--  MISSION  -->
-  <section id="mission">
-    <div class="container">
-      <div class="section-label reveal"> — Future Mission</div>
-      <h2 class="section-title reveal">My Future Mission</h2>
-      <div class="mission-block reveal">
-        <p class="mission-text">To build a <span class="accent">Pharma IT company</span> that combines healthcare, software, AI, analytics, and business systems to improve patient care, create jobs, and transform the pharmaceutical industry.</p>
-      </div>
-      <div class="counters-grid">
-        <div class="counter-card reveal">
-          <div class="counter-num" data-target="10">0</div>
-          <div class="counter-plus">+</div>
-          <div class="counter-label">Future Projects</div>
-        </div>
-        <div class="counter-card reveal">
-          <div class="counter-num" data-target="1000">0</div>
-          <div class="counter-plus">+</div>
-          <div class="counter-label">Lives to Impact</div>
-        </div>
-        <div class="counter-card reveal">
-          <div class="counter-num" data-target="1">0</div>
-          <div class="counter-plus"></div>
-          <div class="counter-label">Big Vision</div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!--  CONTACT -->
-  <section id="contact">
-    <div class="container">
-      <div class="section-label reveal"> — Contact</div>
-      <h2 class="section-title reveal">Let's Connect</h2>
-      <div class="contact-grid">
-        <div class="contact-info reveal">
-          <div class="contact-item">
-            <div class="contact-icon">✉️</div>
-            <div>
-              <div class="contact-label">Email</div>
-              <a href="mailto:dassatyajitdas2005@gmail.com" class="contact-value">dassatyajitdas2005@gmail.com</a>
+        
+        <div class="about-grid">
+          <div class="about-text-card reveal">
+            <p class="lead-text">
+              I am an interdisciplinary student combining pharmaceutical sciences at Haldia Institute of Pharmacy with a Bachelor of Business Administration (BBA) from Manipal Academy of Higher Education.
+            </p>
+            <p>
+              My focus lies where modern clinical science intersects with technology and enterprise. Rather than treating healthcare, management, and digital media as disconnected fields, I connect them to solve real-world problems: designing user-friendly clinical tools, improving healthcare awareness, and building scalable business workflows.
+            </p>
+            <p>
+              Along with academic coursework in Pharmacology, Pharmacovigilance, and Healthcare Systems, I build functional digital solutions with modern web technologies and Python, while leveraging hands-on experience in video editing (CapCut), SEO copywriting, and data analytics.
+            </p>
+            <p>
+              My long-term ambition is to establish a high-impact Health-Tech &amp; Pharma IT enterprise that bridges hospital operational gaps, empowers clinicians, and generates sustainable employment.
+            </p>
+            
+            <!-- Quick Highlight Pills -->
+            <div class="about-highlights">
+              <span class="highlight-chip">💊 Healthcare &amp; Pharmacovigilance</span>
+              <span class="highlight-chip">📊 Business Strategy &amp; Operations</span>
+              <span class="highlight-chip">💻 Health-Tech &amp; Web Development</span>
+              <span class="highlight-chip">🎬 Video Production &amp; Media</span>
+              <span class="highlight-chip">🚀 Startup &amp; Innovation Mindset</span>
             </div>
           </div>
-          <div class="contact-item">
-            <div class="contact-icon">📞</div>
-            <div>
-              <div class="contact-label">Phone</div>
-              <a href="tel:+917872624993" class="contact-value">+91 7872624993</a>
+          
+          <div class="about-cards reveal">
+            <div class="info-card">
+              <div class="info-icon">📍</div>
+              <div class="info-content">
+                <div class="info-label">Location</div>
+                <div class="info-value">Paschim Medinipur · Greater Kolkata Area, WB, India</div>
+              </div>
+            </div>
+            
+            <div class="info-card">
+              <div class="info-icon">🎓</div>
+              <div class="info-content">
+                <div class="info-label">Dual Academic Focus</div>
+                <div class="info-value">Pharmacy (HIP) &amp; BBA (Manipal Academy)</div>
+              </div>
+            </div>
+            
+            <div class="info-card">
+              <div class="info-icon">🌐</div>
+              <div class="info-content">
+                <div class="info-label">Languages</div>
+                <div class="info-value">Bengali (Native) · Hindi · English (Professional)</div>
+              </div>
+            </div>
+            
+            <div class="info-card">
+              <div class="info-icon">🚀</div>
+              <div class="info-content">
+                <div class="info-label">Career Direction</div>
+                <div class="info-value">Health-Tech &amp; Pharma IT Entrepreneur</div>
+              </div>
+            </div>
+
+            <div class="info-card featured-info-card">
+              <div class="info-icon">⭐</div>
+              <div class="info-content">
+                <div class="info-label">Core Practical Strengths</div>
+                <div class="info-value">SEO Copywriting · CapCut Video Editing · Google Sheets &amp; Analytics</div>
+              </div>
             </div>
           </div>
-          <div class="contact-item">
-            <div class="contact-icon">📍</div>
-            <div>
-              <div class="contact-label">Location</div>
-              <div class="contact-value">Kharagpur, West Bengal, India</div>
-            </div>
-          </div>
-          <div class="contact-socials">
-            <a href="https://www.linkedin.com/in/satyajit-das-7822ab300" target="_blank" class="social-btn linkedin">LinkedIn ↗</a>
-            <a href="https://wa.me/917872624993" target="_blank" class="social-btn whatsapp">WhatsApp ↗</a>
-          </div>
-        </div>
-        <div class="contact-form-wrap reveal">
-          <div class="form-group">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" placeholder="John Doe" />
-          </div>
-          <div class="form-group">
-            <label for="email">Email Address</label>
-            <input type="email" id="email" placeholder="john@example.com" />
-          </div>
-          <div class="form-group">
-            <label for="message">Message</label>
-            <textarea id="message" rows="5" placeholder="I'd love to connect..."></textarea>
-          </div>
-          <button class="btn-primary full" id="send-btn" onclick="sendMessage()">Send Message ✉️</button>
-          <div id="form-msg" class="form-feedback"></div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!--  FOOTER  -->
+    <!-- ================= FOCUS PILLARS ================= -->
+    <section id="pharma" class="pharma-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label reveal">02 · Strategic Focus</div>
+          <h2 class="section-title reveal">Core Disciplines &amp; Identity</h2>
+          <p class="section-sub reveal">How healthcare domain knowledge, business systems, code, and creative media unite in my work.</p>
+        </div>
+        
+        <div class="pharma-grid">
+          <div class="pharma-card reveal">
+            <div class="pharma-icon">💊</div>
+            <h3>Pharmacy &amp; Pharmacology</h3>
+            <p>Solid foundation in drug mechanisms, pharmaceutical formulations, therapeutics, and clinical pharmacy standards at Haldia Institute of Pharmacy.</p>
+          </div>
+          
+          <div class="pharma-card reveal">
+            <div class="pharma-icon">🛡️</div>
+            <h3>Pharmacovigilance &amp; Safety</h3>
+            <p>Focused interest in adverse drug reaction (ADR) reporting, post-market surveillance protocols, and patient-centric drug safety practices.</p>
+          </div>
+          
+          <div class="pharma-card reveal">
+            <div class="pharma-icon">📊</div>
+            <h3>Business &amp; Operations</h3>
+            <p>Pursuing BBA at Manipal Academy, mastering corporate management, financial fundamentals, operational scaling, and leadership strategy.</p>
+          </div>
+          
+          <div class="pharma-card reveal">
+            <div class="pharma-icon">💻</div>
+            <h3>Health-Tech &amp; Web Systems</h3>
+            <p>Designing modern digital platforms with HTML, CSS, JavaScript, Python, Streamlit, and databases to modernize clinical workflows.</p>
+          </div>
+          
+          <div class="pharma-card reveal">
+            <div class="pharma-icon">🎬</div>
+            <h3>Video &amp; Motion Media</h3>
+            <p>Skilled in high-retention video editing (CapCut), clear visual storytelling, motion pacing, and brand-building video production.</p>
+          </div>
+          
+          <div class="pharma-card reveal">
+            <div class="pharma-icon">✍️</div>
+            <h3>SEO Copywriting &amp; Content</h3>
+            <p>Authoring clear, search-optimized articles, structured case studies, poster creatives, and educational messaging tailored for high engagement.</p>
+          </div>
+          
+          <div class="pharma-card reveal">
+            <div class="pharma-icon">📈</div>
+            <h3>Data Management &amp; BI</h3>
+            <p>Structuring accurate records, auditing datasets, and visualizing trends using Google Sheets, SQL queries, and Power BI dashboards.</p>
+          </div>
+          
+          <div class="pharma-card reveal">
+            <div class="pharma-icon">🚀</div>
+            <h3>Entrepreneurship &amp; Vision</h3>
+            <p>Committed to building scalable startup ventures that solve pressing healthcare challenges, empower professionals, and generate jobs.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section id="education" class="education-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label reveal">03 · Academic Background</div>
+          <h2 class="section-title reveal">Education &amp; Qualifications</h2>
+          <p class="section-sub reveal">My academic path bridging pharmaceutical sciences, business administration, and foundational sciences.</p>
+        </div>
+        
+        <div class="timeline">
+          <!-- Manipal BBA -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-year">Graduating July 2026</span>
+                <span class="timeline-badge">Business Degree</span>
+              </div>
+              <h3>Manipal Academy of Higher Education</h3>
+              <p class="timeline-degree">Bachelor of Business Administration (BBA) · Business Administration &amp; Management</p>
+              <p class="timeline-desc">
+                Building comprehensive competencies in <strong>strategic management, financial accounting, operational scaling, organizational behavior</strong>, and corporate leadership to complement my healthcare background.
+              </p>
+            </div>
+          </div>
+
+          <!-- Haldia Pharmacy -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-year">November 2024 – June 2026</span>
+                <span class="timeline-badge">Healthcare Degree</span>
+              </div>
+              <h3>Haldia Institute of Pharmacy</h3>
+              <p class="timeline-degree">Pharmacy (Pharmaceutical Sciences &amp; Healthcare)</p>
+              <p class="timeline-desc">
+                Engaged in pharmaceutical coursework covering <strong>pharmacology, pharmaceutics, medicinal chemistry, pharmacovigilance</strong>, and hospital pharmacy workflows. Active member of Catalyst Club HIP.
+              </p>
+            </div>
+          </div>
+
+          <!-- Sundarar High School -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-year">October 2021 – October 2023</span>
+                <span class="timeline-badge">Higher Secondary</span>
+              </div>
+              <h3>Sundarar High School (H.S)</h3>
+              <p class="timeline-degree">Higher Secondary Education (H.S) · Science Stream (PCMB)</p>
+              <p class="timeline-desc">
+                Completed rigorous foundational training in <strong>Physics, Chemistry, Biology, and Mathematics</strong>, building the analytical foundation for pharmaceutical and computational problem-solving.
+              </p>
+            </div>
+          </div>
+
+          <!-- WBBSE -->
+          <div class="timeline-item reveal">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <div class="timeline-header">
+                <span class="timeline-year">Completed March 2021</span>
+                <span class="timeline-badge">Secondary</span>
+              </div>
+              <h3>West Bengal Board of Secondary Education (WBBSE)</h3>
+              <p class="timeline-degree">Matriculation · Secondary School Certificate</p>
+              <p class="timeline-desc">
+                Completed secondary schooling with solid performance across general sciences, mathematics, and language disciplines.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section id="experience" class="experience-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label reveal">04 · Work History</div>
+          <h2 class="section-title reveal">Professional Experience &amp; Leadership</h2>
+          <p class="section-sub reveal">Practical roles across business operations, video editing, creative direction, and digital content.</p>
+        </div>
+        
+        <div class="exp-grid">
+          <!-- NeedMet Data Listing -->
+          <div class="exp-card reveal">
+            <div class="exp-badge">Operations</div>
+            <span class="exp-company">NeedMet · Haldia</span>
+            <h3>Data Listing Executive</h3>
+            <span class="exp-date">June 2026 – July 2026</span>
+            <p>
+              Managed and audited commercial data listings with meticulous accuracy. Standardized digital business records, performed verification audits, and ensured consistent data integrity for online discovery.
+            </p>
+            <div class="exp-tags">
+              <span>Data Management</span>
+              <span>Quality Auditing</span>
+              <span>Information Systems</span>
+              <span>Verification</span>
+            </div>
+          </div>
+
+          <!-- NeedMet Video Editor -->
+          <div class="exp-card reveal">
+            <div class="exp-badge">Media &amp; Growth</div>
+            <span class="exp-company">NeedMet · Haldia</span>
+            <h3>Video Editor</h3>
+            <span class="exp-date">April 2026 – June 2026</span>
+            <p>
+              Produced and edited commercial marketing videos for digital campaigns. Crafted engaging motion cuts, visual pacing, and audio mixing that improved brand reach and viewer retention.
+            </p>
+            <div class="exp-tags">
+              <span>Video Editing</span>
+              <span>CapCut</span>
+              <span>Brand Marketing</span>
+              <span>Motion Visuals</span>
+            </div>
+          </div>
+
+          <!-- Catalyst Club HIP -->
+          <div class="exp-card reveal">
+            <div class="exp-badge">Leadership</div>
+            <span class="exp-company">CATALYST CLUB HIP · Haldia</span>
+            <h3>Club Member &amp; Creative Strategist</h3>
+            <span class="exp-date">February 2025 – July 2026 (1 yr 6 mos)</span>
+            <p>
+              Active contributor to student innovation initiatives, organizing pharmacy-focused seminars, designing promotional posters, and planning creative outreach campaigns across the campus healthcare community.
+            </p>
+            <div class="exp-tags">
+              <span>Event Strategy</span>
+              <span>Poster Design</span>
+              <span>Campus Leadership</span>
+              <span>Team Collaboration</span>
+            </div>
+          </div>
+
+          <!-- Bookmipg -->
+          <div class="exp-card reveal">
+            <div class="exp-badge">Design &amp; Marketing</div>
+            <span class="exp-company">Rental | Bookmipg · Haldia</span>
+            <h3>Video Editor &amp; Graphic Designer</h3>
+            <span class="exp-date">February 2025 – September 2025 (8 mos)</span>
+            <p>
+              Created visual promotional creatives and edited short-form video reels for a rental marketplace platform, supporting user acquisition and social media engagement.
+            </p>
+            <div class="exp-tags">
+              <span>Graphic Design</span>
+              <span>Social Media Video</span>
+              <span>Visual Ads</span>
+              <span>Brand Consistency</span>
+            </div>
+          </div>
+
+          <!-- YouTube Channels -->
+          <div class="exp-card full-span reveal">
+            <div class="exp-badge">Creator &amp; Founder</div>
+            <span class="exp-company">YouTube Channels (Mr. Career &amp; Tech IT) · India</span>
+            <h3>Content Creator &amp; Channel Lead</h3>
+            <span class="exp-date">November 2024 – November 2025 (1 yr 1 mo)</span>
+            <p>
+              Founded and managed digital educational channels focused on high-value knowledge sharing:
+              <br />• <strong>Mr. Career</strong>: Scripted and produced educational career guidance videos to mentor students on career paths, skill acquisition, and healthcare opportunities.
+              <br />• <strong>Tech IT</strong>: Published technology tutorials, web development fundamentals, and breakdowns of modern digital productivity tools.
+            </p>
+            <div class="exp-tags">
+              <span>YouTube Growth</span>
+              <span>SEO Copywriting</span>
+              <span>Video Production</span>
+              <span>Educational Mentorship</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label reveal">05 · Capabilities</div>
+          <h2 class="section-title reveal">Skills, Tools &amp; Proficiencies</h2>
+          <p class="section-sub reveal">A balanced toolkit blending pharmaceutical knowledge, software development, business management, and creative media.</p>
+        </div>
+
+        <!-- Featured Top Skills Banner -->
+        <div class="top-skills-banner reveal">
+          <div class="banner-title">
+            <span>✨</span> <strong>LinkedIn Verified Core Skills:</strong>
+          </div>
+          <div class="banner-badges">
+            <span class="skill-badge-highlight">SEO Copywriting</span>
+            <span class="skill-badge-highlight">CapCut Video Editing</span>
+            <span class="skill-badge-highlight">Google Sheets &amp; Data Mgmt</span>
+          </div>
+        </div>
+        
+        <!-- Skill Tabs -->
+        <div class="skills-tabs reveal">
+          <button class="tab-btn active" data-tab="pharma-skills">💊 Healthcare &amp; Pharma</button>
+          <button class="tab-btn" data-tab="tech-skills">💻 Tech &amp; Software</button>
+          <button class="tab-btn" data-tab="biz-skills">📊 Business &amp; Strategy</button>
+          <button class="tab-btn" data-tab="creative-skills">🎬 Creative &amp; Media</button>
+        </div>
+        
+        <!-- Tab 1: Pharma -->
+        <div class="skills-panel active" id="pharma-skills">
+          <div class="skills-grid">
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Pharmaceutical Sciences &amp; Pharmacology</span><span>80%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Healthcare Systems &amp; Patient Safety</span><span>78%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="78"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Pharmacovigilance &amp; ADR Surveillance</span><span>72%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="72"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Clinical &amp; Drug Research Mindset</span><span>75%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="75"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Pharma IT &amp; Health-Tech Integration</span><span>76%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="76"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Regulatory Compliance Curiosity</span><span>70%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Tab 2: Tech -->
+        <div class="skills-panel" id="tech-skills">
+          <div class="skills-grid">
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>HTML5 &amp; Modern CSS3</span><span>85%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>JavaScript (ES6+)</span><span>68%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="68"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Python &amp; Streamlit App Development</span><span>70%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>SQL &amp; Database Basics</span><span>65%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="65"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Power BI &amp; Data Analytics</span><span>60%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="60"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Responsive UI &amp; Web Design</span><span>82%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="82"></div></div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Tab 3: Business -->
+        <div class="skills-panel" id="biz-skills">
+          <div class="skills-grid">
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Business Strategy &amp; Market Dynamics</span><span>80%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Startups, Scaling &amp; Growth Frameworks</span><span>78%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="78"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Leadership &amp; Team Collaboration</span><span>82%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="82"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Creative Problem Solving &amp; Innovation</span><span>85%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Digital Operations &amp; Optimization</span><span>76%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="76"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Data Organization (Google Sheets)</span><span>88%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tab 4: Creative & Media -->
+        <div class="skills-panel" id="creative-skills">
+          <div class="skills-grid">
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Video Editing (CapCut &amp; Motion Tools)</span><span>88%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="88"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>SEO Copywriting &amp; Content Strategy</span><span>84%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="84"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Poster Design &amp; Brand Aesthetics</span><span>82%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="82"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Audience Engagement &amp; Retention</span><span>78%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="78"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Campaign Conceptualization</span><span>80%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+            </div>
+            <div class="skill-bar-wrap reveal">
+              <div class="skill-label"><span>Educational Storytelling</span><span>83%</span></div>
+              <div class="skill-track"><div class="skill-fill" data-width="83"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Languages Box -->
+        <div class="languages-box reveal">
+          <div class="lang-header">
+            <span class="lang-icon">🗣️</span>
+            <div>
+              <h3>Language Proficiencies</h3>
+              <p>Professional communication across regional and global contexts.</p>
+            </div>
+          </div>
+          <div class="lang-pills">
+            <div class="lang-pill">
+              <span class="lang-name">Bengali</span>
+              <span class="lang-level">Native Proficiency</span>
+            </div>
+            <div class="lang-pill">
+              <span class="lang-name">Hindi</span>
+              <span class="lang-level">Professional Working</span>
+            </div>
+            <div class="lang-pill">
+              <span class="lang-name">English</span>
+              <span class="lang-level">Professional Working</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label reveal">06 · Featured Work</div>
+          <h2 class="section-title reveal">Projects &amp; Ventures</h2>
+          <p class="section-sub reveal">Practical healthcare software, interactive data tools, and digital educational channels.</p>
+        </div>
+        
+        <div class="projects-grid">
+          
+          <!-- PROJECT 01: MEDITRACK (Flagship Health-Tech) -->
+          <div class="project-card featured-project-card reveal">
+            <div class="project-card-header">
+              <div class="project-badge-featured">⭐ Featured Health-Tech</div>
+              <div class="project-num">01</div>
+            </div>
+            
+            <h3 class="project-title">MediTrack</h3>
+            <p class="project-role-tag">Hospital Internship &amp; Training Management System</p>
+            
+            <p class="project-desc">
+              A comprehensive health-tech management platform engineered for hospitals, medical institutions, and pharmacy interns to coordinate clinical rotations, verify attendance, log procedural competencies, and monitor real-time training evaluations.
+            </p>
+            
+            <div class="project-features-list">
+              <div class="feat-item">
+                <span class="feat-check">✓</span>
+                <span><strong>Clinical Rotation &amp; Department Logging:</strong> Centralized tracking for ward postings, clinical case assignments, and attendance records.</span>
+              </div>
+              <div class="feat-item">
+                <span class="feat-check">✓</span>
+                <span><strong>Preceptor &amp; Supervisor Oversight:</strong> Structured assessment workflows for mentors to review competencies and sign off on training milestones.</span>
+              </div>
+              <div class="feat-item">
+                <span class="feat-check">✓</span>
+                <span><strong>Role-Based Portals &amp; Security:</strong> Dedicated, authenticated access for medical interns, hospital administrators, and preceptors.</span>
+              </div>
+            </div>
+            
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">CSS3</span>
+              <span class="tech-tag">JavaScript ES6</span>
+              <span class="tech-tag">Vercel Cloud</span>
+              <span class="tech-tag">Hospital Workflows</span>
+            </div>
+            
+            <div class="project-actions">
+              <a href="https://meditrack-bssh.vercel.app/login.html" target="_blank" rel="noopener noreferrer" class="project-btn-primary">Live Demo ↗</a>
+              <a href="https://github.com/dassatyajitdas2005" target="_blank" rel="noopener noreferrer" class="project-btn-secondary">GitHub ↗</a>
+            </div>
+          </div>
+
+          <!-- PROJECT 02: Streamlit Medicine Finder Tool -->
+          <div class="project-card reveal">
+            <div class="project-card-header">
+              <span class="project-status-pill">Health-Tech</span>
+              <div class="project-num">02</div>
+            </div>
+            <h3 class="project-title">Streamlit Medicine Finder</h3>
+            <p class="project-desc">
+              An interactive web application built with Python &amp; Streamlit for rapid drug lookup, active constituent breakdown, therapeutic indications, and patient safety precautions.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">Python</span>
+              <span class="tech-tag">Streamlit</span>
+              <span class="tech-tag">Drug Data API</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/dassatyajitdas2005" target="_blank" rel="noopener noreferrer" class="project-btn-secondary">GitHub Repo ↗</a>
+              <span class="project-btn-tag">Active Prototype</span>
+            </div>
+          </div>
+
+          <!-- PROJECT 03: Pharma Quiz & Learning App -->
+          <div class="project-card reveal">
+            <div class="project-card-header">
+              <span class="project-status-pill">EdTech</span>
+              <div class="project-num">03</div>
+            </div>
+            <h3 class="project-title">Pharma Quiz &amp; Learning Platform</h3>
+            <p class="project-desc">
+              An engaging educational quiz system designed for pharmacy students and healthcare learners to test knowledge across pharmacokinetics, pharmacology, and drug safety.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">JavaScript</span>
+              <span class="tech-tag">HTML5 / CSS3</span>
+              <span class="tech-tag">Pharma MCQs</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/dassatyajitdas2005" target="_blank" rel="noopener noreferrer" class="project-btn-secondary">GitHub Repo ↗</a>
+              <span class="project-btn-tag">In Development</span>
+            </div>
+          </div>
+
+          <!-- PROJECT 04: Mr. Career YouTube Channel -->
+          <div class="project-card reveal">
+            <div class="project-card-header">
+              <span class="project-status-pill">Media</span>
+              <div class="project-num">04</div>
+            </div>
+            <h3 class="project-title">Mr. Career — YouTube Channel</h3>
+            <p class="project-desc">
+              Educational channel delivering actionable career guidance, student skill development strategies, and motivational content across science and professional growth.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">Video Production</span>
+              <span class="tech-tag">CapCut</span>
+              <span class="tech-tag">SEO Strategy</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://www.youtube.com/channel/UCpbS8YlVdp8FRYhirKhobkg" target="_blank" rel="noopener noreferrer" class="project-btn-primary">Visit Channel ↗</a>
+            </div>
+          </div>
+
+          <!-- PROJECT 05: Tech IT YouTube Channel -->
+          <div class="project-card reveal">
+            <div class="project-card-header">
+              <span class="project-status-pill">Technology</span>
+              <div class="project-num">05</div>
+            </div>
+            <h3 class="project-title">Tech IT — YouTube Channel</h3>
+            <p class="project-desc">
+              A tech-focused YouTube platform exploring software tools, emerging web technologies, programming fundamentals, and digital product tutorials.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">Tech Content</span>
+              <span class="tech-tag">Tutorials</span>
+              <span class="tech-tag">CapCut Editing</span>
+            </div>
+            <div class="project-actions">
+              <a href="http://www.youtube.com/@techit_tit" target="_blank" rel="noopener noreferrer" class="project-btn-primary">Visit Channel ↗</a>
+            </div>
+          </div>
+
+          <!-- PROJECT 06: Personal Brand Portfolio -->
+          <div class="project-card reveal">
+            <div class="project-card-header">
+              <span class="project-status-pill">Portfolio</span>
+              <div class="project-num">06</div>
+            </div>
+            <h3 class="project-title">Personal Brand Portfolio (v2.0)</h3>
+            <p class="project-desc">
+              High-performance, accessible, and responsive personal portfolio built with modern vanilla web standards, sleek glassmorphic surfaces, and custom interactive components.
+            </p>
+            <div class="project-tech-stack">
+              <span class="tech-tag">HTML5</span>
+              <span class="tech-tag">Vanilla CSS</span>
+              <span class="tech-tag">JavaScript ES6</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://dassatyajitdas2005.github.io/my_portfolio/" target="_blank" rel="noopener noreferrer" class="project-btn-primary">Live Site ↗</a>
+              <a href="https://github.com/dassatyajitdas2005" target="_blank" rel="noopener noreferrer" class="project-btn-secondary">GitHub ↗</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= VISION & MISSION ================= -->
+    <section id="mission" class="mission-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label reveal">07 · Future Horizon</div>
+          <h2 class="section-title reveal">My Long-Term Vision</h2>
+        </div>
+        
+        <div class="mission-block reveal">
+          <div class="mission-badge">🚀 The Big Goal</div>
+          <p class="mission-text">
+            "To establish a forward-thinking <span class="accent">Health-Tech &amp; Pharma IT enterprise</span> that bridges pharmaceutical sciences, modern software, and intelligent data systems — creating impactful solutions that enhance patient safety, drive healthcare awareness, and generate sustainable jobs."
+          </p>
+        </div>
+        
+        <div class="counters-grid">
+          <div class="counter-card reveal">
+            <div class="counter-num-wrap">
+              <span class="counter-num" data-target="10">0</span>
+              <span class="counter-plus">+</span>
+            </div>
+            <div class="counter-label">Projects &amp; Creative Initiatives</div>
+          </div>
+          
+          <div class="counter-card reveal">
+            <div class="counter-num-wrap">
+              <span class="counter-num" data-target="1000">0</span>
+              <span class="counter-plus">+</span>
+            </div>
+            <div class="counter-label">Students &amp; Viewers Reached</div>
+          </div>
+          
+          <div class="counter-card reveal">
+            <div class="counter-num-wrap">
+              <span class="counter-num" data-target="1">0</span>
+              <span class="counter-plus"></span>
+            </div>
+            <div class="counter-label">Unified Health-Tech Vision</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="section-header">
+          <div class="section-label reveal">08 · Get In Touch</div>
+          <h2 class="section-title reveal">Let's Connect &amp; Collaborate</h2>
+          <p class="section-sub reveal">Have a project idea, internship opportunity, or want to discuss Health-Tech &amp; Creative Strategy? Reach out!</p>
+        </div>
+        
+        <div class="contact-grid">
+          <!-- Left info column -->
+          <div class="contact-info reveal">
+            <div class="contact-item">
+              <div class="contact-icon">✉️</div>
+              <div class="contact-details">
+                <div class="contact-label">Email Address</div>
+                <a href="mailto:dassatyajitdas2005@gmail.com" class="contact-value">dassatyajitdas2005@gmail.com</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">📞</div>
+              <div class="contact-details">
+                <div class="contact-label">Phone / Mobile</div>
+                <a href="tel:+917872624993" class="contact-value">+91 7872624993</a>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">📍</div>
+              <div class="contact-details">
+                <div class="contact-label">Location</div>
+                <div class="contact-value">Belar, Dhalbelun, Paschim Medinipur, 721424<br />Greater Kolkata Area, WB, India</div>
+              </div>
+            </div>
+            
+            <div class="contact-socials">
+              <a href="https://www.linkedin.com/in/satyajit-das-7822ab300" target="_blank" rel="noopener noreferrer" class="social-btn linkedin">
+                <span>LinkedIn Profile ↗</span>
+              </a>
+              <a href="https://wa.me/917872624993" target="_blank" rel="noopener noreferrer" class="social-btn whatsapp">
+                <span>WhatsApp Message ↗</span>
+              </a>
+              <a href="https://github.com/dassatyajitdas2005" target="_blank" rel="noopener noreferrer" class="social-btn github">
+                <span>GitHub ↗</span>
+              </a>
+            </div>
+          </div>
+          
+          <!-- Right form column -->
+          <div class="contact-form-wrap reveal">
+            <form id="contact-form" onsubmit="event.preventDefault(); sendMessage();" novalidate>
+              <div class="form-group">
+                <label for="name">Your Name <span class="required-star">*</span></label>
+                <input type="text" id="name" placeholder="e.g. Alex Sharma" required autocomplete="name" />
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email Address <span class="required-star">*</span></label>
+                <input type="email" id="email" placeholder="e.g. alex@example.com" required autocomplete="email" />
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Your Message <span class="required-star">*</span></label>
+                <textarea id="message" rows="5" placeholder="Let's discuss an opportunity, collaboration, or idea..." required></textarea>
+              </div>
+              
+              <button type="submit" class="btn-primary full" id="send-btn">
+                <span>Send Message ✉️</span>
+              </button>
+              
+              <div id="form-msg" class="form-feedback" aria-live="polite"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
   <footer>
     <div class="footer-inner">
-      <div class="footer-logo">SD<span class="dot">.</span></div>
-      <p>© 2026 Satyajit Das &nbsp;·&nbsp; Built with vision, discipline &amp; innovation.</p>
-      <p class="footer-sub">Pharma Student | Future Pharma IT Entrepreneur | Tech Learner | Business Strategist</p>
+      <div class="footer-top">
+        <div class="footer-logo">SD<span class="dot">.PORTFOLIO</span></div>
+        <p class="footer-bio">Satyajit Das — Pharmacy Student &amp; BBA Scholar · Creative Strategist · Future Health-Tech Entrepreneur</p>
+      </div>
+      
+      <div class="footer-divider"></div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 Satyajit Das. All rights reserved.</p>
+        <p class="footer-sub">Crafted with modern web standards, discipline &amp; vision.</p>
+      </div>
     </div>
   </footer>
 
-  <!-- Back to Top -->
-  <button id="back-top" aria-label="Back to top">↑</button>
+  <!-- Back to Top Button -->
+  <button id="back-top" aria-label="Back to top" title="Back to top">↑</button>
 
   <script src="script.js"></script>
 </body>
