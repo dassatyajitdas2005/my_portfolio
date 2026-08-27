@@ -47,9 +47,7 @@ MyPortfolio/
 
 ---
 
-## 📸 Screenshots
-
-> Screenshots will be added soon.
+<img width="1916" height="929" alt="image" src="https://github.com/user-attachments/assets/7433a192-b4b8-46f3-b813-c964777213f6" />
 
 ---
 
